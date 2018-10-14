@@ -1,0 +1,21 @@
+.Title {
+    font-weight: normal;
+    font-family: 'Open Sans', Arial, sans-serif;
+
+    &.-center {
+        text-align: center;
+    }
+
+    &.-bold {
+        font-weight: 600;
+    }
+}
+
+h1.Title {
+    font-size: 22px;
+}
+
+h2.Title {
+    font-size: 14px;
+    font-weight: 100;
+}

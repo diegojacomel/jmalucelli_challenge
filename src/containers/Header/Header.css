@@ -1,0 +1,26 @@
+.Header {
+  margin: -15px 0 0;
+  background: #A070F2;
+  color: #ffffff;
+  padding: 10px 0; }
+  .Header-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .Header-grid-initial {
+      display: flex;
+      align-items: center; }
+      .Header-grid-initial .Icon {
+        margin-right: 20px; }
+      .Header-grid-initial-info {
+        font-size: 14px; }
+  .Header-thumb {
+    margin: 0;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    background: #ffffff; }
+    .Header-thumb img {
+      width: 40px;
+      height: 40px; }

@@ -1,0 +1,12 @@
+.InitialPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 15px;
+  height: calc(100vh - 30px); }
+  .InitialPage > .Icon {
+    margin-bottom: 60px; }
+  .InitialPage > h1.Title {
+    margin: 0 0 30px; }
+  .InitialPage > h2.Title {
+    margin: 0 0 80px; }

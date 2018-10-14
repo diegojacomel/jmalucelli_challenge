@@ -1,0 +1,28 @@
+.Button {
+  background: #ffffff;
+  color: #A070F2;
+  border: none;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  padding: 20px 30px;
+  font-weight: bold;
+  font-family: 'Open Sans', Arial, sans-serif;
+  outline: none; }
+  .Button.-block {
+    width: 100%; }
+  .Button.-primary {
+    background: #ffffff;
+    color: #A070F2; }
+  .Button.-secondary {
+    background: #32CCCC;
+    color: #ffffff; }
+  .Button:disabled {
+    background: #dddddd;
+    color: #999999; }
+
+a.Button.-block {
+  width: calc(100% - 60px);
+  text-decoration: none; }

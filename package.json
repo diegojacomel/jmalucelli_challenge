@@ -1,0 +1,37 @@
+{
+  "name": "jmalucelli_challenge",
+  "version": "0.1.0",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "jest-dom": "^2.0.5",
+    "lodash": "^4.17.10",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.0.4",
+    "react-testing-library": "^5.2.0",
+    "react-text-mask": "^5.4.3",
+    "react-theme-provider": "^0.1.3",
+    "universal-cookie": "^3.0.4"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start-js": "react-scripts start",
+    "dev": "npm-run-all -p watch-css start-js",
+    "build-js": "react-scripts build",
+    "build": "npm-run-all build-css build-js",
+    "eject": "react-scripts eject",
+    "test": "react-scripts test"
+  },
+  "devDependencies": {
+    "node-sass-chokidar": "^1.2.2",
+    "npm-run-all": "^4.1.2"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

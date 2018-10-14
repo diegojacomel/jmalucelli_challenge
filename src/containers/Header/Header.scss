@@ -1,0 +1,33 @@
+.Header {
+    margin: -15px 0 0;
+    background: #A070F2;
+    color: #ffffff;
+    padding: 10px 0;
+    &-grid {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-initial {
+            display: flex;
+            align-items: center;
+            .Icon {
+                margin-right: 20px;
+            }
+            &-info {
+                font-size: 14px;
+            }
+        }
+    }
+    &-thumb {
+        margin: 0;
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+        overflow: hidden;
+        background: #ffffff;
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
